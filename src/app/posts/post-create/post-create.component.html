@@ -1,7 +1,10 @@
 <!-- two way binding with ngModel -->
 <mat-card>
   <mat-form-field>
-    <textarea matInput rows="6" [(ngModel)]="enteredValue"></textarea>
+    <input matInput type="text" [(ngModel)]="enteredTitle">
+  </mat-form-field>
+  <mat-form-field>
+    <textarea matInput rows="6" [(ngModel)]="enteredContent"></textarea>
     <!-- event binding -->
     <!-- string interpolation -->
   </mat-form-field>
